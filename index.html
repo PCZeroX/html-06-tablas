@@ -27,6 +27,14 @@
       <tr></tr> Table row (para cada fila)
       <td></td> Table date (para cada celda)
       <th></th> Table head (celdas de cabecera)
+
+      Atributos para agrupación de filas y columnas
+      
+      colspan (columnas)
+      colspan=N
+      
+      rowspan (filas)
+      rowspan=N
      -->
 
 		<table>
@@ -44,27 +52,21 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>HTML</td>
-					<td>JavaScript</td>
-					<td>Algoritmos</td>
+					<td colspan=2>HTML</td>
+					<td rowspan=2>Algoritmos</td>
 					<td>Photoshop</td>
 					<td>Marketing Digital</td>
 				</tr>
 				<tr>
 					<td>Python</td>
 					<td>CSS</td>
-					<td>Diseño</td>
-					<td>Java</td>
-					<td>UX Design</td>
+					<td colspan=2>Java</td>
 				</tr>
 			</tbody>
 			<tfoot>
 				<tr>
-					<td>2 cursos</td>
-					<td>2 cursos</td>
-					<td>2 cursos</td>
-					<td>2 cursos</td>
-					<td>2 cursos</td>
+					<td>Total de cursos</td>
+					<td colspan=4>6 cursos</td>
 				</tr>
 			</tfoot>
 		</table>
