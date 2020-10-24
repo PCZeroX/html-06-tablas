@@ -19,6 +19,26 @@
 				background: #333;
 				color: #fff;
 			}
+
+      caption {
+        padding-bottom: .5em;
+      }
+
+      .col-1 {
+        background: pink;
+      }
+
+      .col-2 {
+        background: turquoise;
+      }
+
+      .col-3 {
+        background: tomato;
+      }
+
+      .col-4 {
+        background: steelblue;
+      }
 		</style>
 	</head>
 	<body>
@@ -40,7 +60,14 @@
 		<table>
 			<caption>
 				Horario semanal de clases en EDteam
-			</caption>
+      </caption>
+      <colgroup>
+        <col class="col-1">
+        <col class="col-2">
+        <col class="col-3">
+        <col class="col-4">
+        <col style="background: yellow;">
+      </colgroup>
 			<thead>
 				<tr>
 					<th>Lunes</th>
@@ -51,7 +78,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
+				<tr">
 					<td colspan=2>HTML</td>
 					<td rowspan=2>Algoritmos</td>
 					<td>Photoshop</td>
@@ -60,7 +87,8 @@
 				<tr>
 					<td>Python</td>
 					<td>CSS</td>
-					<td colspan=2>Java</td>
+          <td>Java</td>
+          <td>UX Design</td>
 				</tr>
 			</tbody>
 			<tfoot>
